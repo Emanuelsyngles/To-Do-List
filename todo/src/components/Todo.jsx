@@ -1,6 +1,7 @@
-import React from 'react'
+import React from "react"
 
 const Todo = ({ todo }) => {
+
   return (
     <div className="todo">
     <div className="content">
