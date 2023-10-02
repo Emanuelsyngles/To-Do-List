@@ -11,6 +11,7 @@ const TodoForm = () => {
         console.log(value, category);
         //adicionar todo
         setValue("");
+        setCategory("");
         };
     }
 
