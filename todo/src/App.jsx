@@ -23,9 +23,18 @@ function App() {
     },
   ])
 
-  return (
-    <div>Olá react!</div>
-  )
+  return <div className="App">
+    <h1>Lista de tarefas</h1>
+    <div className="todo-list">
+      {todos.map((todo) => (
+        <div className="todo">
+          <div className="content">
+            <p>{todo.text}</p>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
 }
 
 export default App
