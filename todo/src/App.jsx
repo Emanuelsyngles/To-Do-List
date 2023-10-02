@@ -32,7 +32,7 @@ function App() {
     <h1>Lista de tarefas</h1>
     <div className="todo-list">
       {todos.map((todo) => (
-        <Todo todo={todo}/>
+        <Todo key={todo.id} todo={todo}/>
       ))}
     </div>
     <TodoForm/>
