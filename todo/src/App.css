@@ -13,7 +13,7 @@ body {
 
 /*Modelagem da lista de tarefas*/
 
-.App {
+.app {
   max-width: 600px;
   margin: 0 auto 300px;
   background-color: #efefef;

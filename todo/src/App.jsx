@@ -1,5 +1,10 @@
 import { useState } from "react";
 
+import './App.css'
+
+import Todo from "./components/Todo";
+
+
 function App() {
   const[todos, setTodos] = useState([
     {
@@ -21,7 +26,14 @@ function App() {
       isCompleted: false,
     }
   ])
-  return <div>Olá react</div>;
+  return <div className="app">
+    <h1>Lista de tarefas</h1>
+    <div className="todo-list">
+      {todos.map((todo) => (
+        <Todo todo={todo}/>
+      ))}
+    </div>
+  </div>
 }
 
 export default App
