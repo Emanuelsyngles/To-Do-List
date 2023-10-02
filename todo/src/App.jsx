@@ -2,12 +2,10 @@ import { useState } from 'react'
 
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [todos, setTodos] = useState()
 
   return (
-    <div>
-      Olá react
-    </div>
+    <div>Olá react!</div>
   )
 }
 
