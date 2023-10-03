@@ -8,8 +8,7 @@
  ## Como funciona?
 
  Funciona com o usuário colocando o nome da tarefa e a categoria que ela se encaixa, após isso ele poderá 
- excluir essa tarefa ou marcar como completa, temos a parte de filtro ele indentifica as tarefas não comp
- letas, completas e todas as tarefas ou All, quando salvamos ela ficará salva até você recarregar a págin
+ excluir essa tarefa ou marcar como completa, temos a parte de filtro ele indentifica as tarefas não completas, completas e todas as tarefas ou All, quando salvamos ela ficará salva até você recarregar a págin
  a o projeto não possui integração com banco de dados, foi tudo feito em ReactJS.
 
  ## Ferramentas 🔧
