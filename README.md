@@ -3,7 +3,7 @@
 
 
 ## Informações
- Esse é um projeto de lista de tarefas.
+ Esse é um projeto de lista de tarefas funcional para organizar os seus a fazeres.
 
  ## Como funciona?
 
