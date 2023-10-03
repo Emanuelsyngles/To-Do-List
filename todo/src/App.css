@@ -19,6 +19,7 @@ body {
   background-color: #efefef;
   padding: 20px 30px;
   border-radius: 10px;
+  overflow: hidden;
 }
 
 h1 {
