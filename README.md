@@ -1,5 +1,5 @@
-![Captura de tela 2023-10-03 185006](https://github.com/Emanuelsyngles/To-Do-List/assets/122393755/a4fe9895-ac9b-4b7b-bad6-caeeaf59d49a)
-![Captura de tela 2023-10-03 185021](https://github.com/Emanuelsyngles/To-Do-List/assets/122393755/166e7332-2477-432d-ab32-0f8fb2263b9c)
+![Captura de tela 2023-10-03 190340](https://github.com/Emanuelsyngles/To-Do-List/assets/122393755/8543dab2-9377-4f83-8288-9485aad6e62c)
+![Captura de tela 2023-10-03 190422](https://github.com/Emanuelsyngles/To-Do-List/assets/122393755/f487f47e-10db-4246-8874-11c81980995a)
 
 
 ## Informações
