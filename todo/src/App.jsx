@@ -48,6 +48,11 @@ function App() {
     setTodos(filteredTodos)
   }
 
+  const completeRodo = (id) =>  {
+    const newTodos =[...todos]
+    
+  }
+
   return <div className="app">
     <h1>Lista de tarefas</h1>
     <div className="todo-list">
