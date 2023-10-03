@@ -71,7 +71,7 @@ function App() {
     <Filter filter={filter} setFilter={setFilter}/>
     <div className="todo-list">
       {todos
-      //Tarefas completas
+      //Filtro para tarefas completas & tarefas completas
       .filter((todo) => filter === "All" 
       ? true 
       : filter === "Completed" 
