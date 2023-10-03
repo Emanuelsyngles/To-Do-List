@@ -68,7 +68,7 @@ function App() {
   return <div className="app">
     <h1>Lista de tarefas</h1>
     <Search search={search} setSearch={setSearch}/>
-    <Filter filter={filter} setFilter={setFilter}/>
+    <Filter filter={filter} setFilter={setFilter} setSort={setSort}/>
     <div className="todo-list">
       {todos
       //Filtro para tarefas completas & tarefas completas
@@ -77,10 +77,15 @@ function App() {
       : filter === "Completed" 
       ? todo.isCompleted 
       : !todo.isCompleted)
+
+      .sort((a, b) => sort === "Asc" 
+      ? a.text.localeCompare(b.text) 
+      : b.text.localeCompare(a.text))
+
       .filter((todo) => todo.text.toLowerCase().includes(search.toLowerCase())).map((todo) => (
         <Todo key={todo.id} todo={todo} removeTodo={removeTodo} completeTodo={completeTodo}/>
       ))}
-    </div>
+        </div>
     <TodoForm addTodo={addTodo}/>
   </div>
 }
