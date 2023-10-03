@@ -32,6 +32,8 @@ function App() {
     }
   ])
 
+  const [search, setSearch] = useState("")
+
   const addTodo = (text, category) => {
     const newTodos = [...todos, {
       id: Math.floor(Math.random() * 10000),
@@ -59,9 +61,9 @@ function App() {
 
   return <div className="app">
     <h1>Lista de tarefas</h1>
-    <Search />
+    <Search search={search} setSearch={search}/>
     <div className="todo-list">
-      {todos.map((todo) => (
+      {todos.filter((todo) => todo.text.toLowerCase().includes(search.toLowerCase())).map((todo) => (
         <Todo key={todo.id} todo={todo} removeTodo={removeTodo} completeTodo={completeTodo}/>
       ))}
     </div>
