@@ -6,7 +6,7 @@ const Filter = () => {
         <h2>Filtrar</h2>
         <div className="filter-options">
             <div>
-                <p>Status</p>
+                <p>Status:</p>
                 <select>
                     <option value="All">Todas</option>
                     <option value="Completed">Completas</option>
