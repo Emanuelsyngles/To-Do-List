@@ -43,6 +43,7 @@ button {
   background-color: #3a9cd4;
   color: white;
   padding: 5px 10px;
+  margin-right: 10px;
   border: none;
   border-radius: 3px;
   cursor: pointer;
@@ -67,9 +68,9 @@ button:hover {
 }
 
 .remove:hover {
-  transform: rotate(360deg);
-  transition: .5s;
-  border-radius: 50%;
+  opacity: 1.5;
+  scale: 0.9;
+  transition: .4s;
 }
 
 /*Todo-form*/
@@ -80,10 +81,13 @@ button:hover {
 
 .todo {
   background-color: #fff;
-  box-shadow: 0px -1px 10px 0px black;
   padding: 10px;
   margin-bottom: 10px;
   border-radius: 10px;
+  border: 1px solid rgb(96, 44, 217);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .todo-list {
