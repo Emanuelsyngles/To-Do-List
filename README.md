@@ -18,5 +18,5 @@
 
  - [Matheus Battisti - Hora de Codar](https://www.youtube.com/watch?v=YVEVrigByKY&ab_channel=MatheusBattisti-HoradeCodar)
 
- - ##Desenvolvido por Emanuel syngles.
+ - Desenvolvido por Emanuel syngles.
 
