@@ -13,7 +13,8 @@
 
 ## Como acessar?
 
-Acesse por aqui: [projeto](https://tarefaslists.netlify.app/)
+Acesse por aqui: 
+-[projeto](https://tarefaslists.netlify.app/)
 
  ## Ferramentas 🔧
 - [ReactJS](https://react.dev/)
