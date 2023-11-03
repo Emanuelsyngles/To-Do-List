@@ -11,6 +11,10 @@
  excluir essa tarefa ou marcar como completa, temos a parte de filtro ele indentifica as tarefas não completas, completas e todas as tarefas ou All, quando salvamos ela ficará salva até você recarregar a 
  página, esse projeto não possui integração com banco de dados, foi tudo feito em ReactJS.
 
+## Como acessar?
+
+Acesse por aqui: [](https://tarefaslists.netlify.app/)
+
  ## Ferramentas 🔧
 - [ReactJS](https://react.dev/)
   
